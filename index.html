@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Data Dashboard</h1>
+        <button id="fetchBtn" class="fetch-button">Fetch Users</button>
+        <button id="reloadBtn" class="reload-button">Reload Data</button>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading users...</p>
+        </div>
+        
+        <div id="error" class="error-message"></div>
+        
+        <div id="userContainer" class="user-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
